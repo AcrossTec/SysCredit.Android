@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="15dp"
         android:orientation="vertical"
-        tools:context=".ui.home.HomeFragment">
+        tools:context=".fragments.HomeFragment">
 
         <TextView
             android:layout_width="match_parent"
