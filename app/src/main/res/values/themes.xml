@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SysCredit.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="colorPrimaryDark">@color/primary900</item>
+
+        <item name="color_navigation_item">@color/menu_item_color_state</item>
+        <item name="color_navigation_item_selected">@color/primary</item>
+        <item name="drawable_navigation_item_background">@drawable/menu_background_color_state
+        </item>
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">#4A5B8E</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!--        text color-->
+        <item name="android:textColor">@color/black</item>
+
+        <!-- Status bar color. -->
+        <!--        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>-->
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.SysCreditAndroid.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.SysCreditAndroid.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.SysCredit" parent="Theme.Material3.DayNight">
+        <item name="android:windowBackground">@color/white</item>
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+    </style>
+
+    <style name="SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:statusBarColor">@color/primary</item>
+    </style>
+
+
+    <style name="Theme.SysCredit.AppBarOverlay">
+        <item name="android:colorPrimary">@color/white</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.SysCredit.PopupOverlay">
+        <item name="android:colorPrimary">@color/white</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Style.SysCredit.NavigationView" parent="Widget.Design.NavigationView">
+        <item name="android:background">@color/primary</item>
+        <item name="itemIconTint">@color/white</item>
+        <item name="itemTextColor">?attr/color_navigation_item</item>
+        <item name="itemBackground">?attr/drawable_navigation_item_background</item>
+        <item name="fontFamily">@font/inter_black</item>
+    </style>
+</resources>

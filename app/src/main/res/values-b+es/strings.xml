@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- LANGUAGE: es -->
+
+<resources>
+    <string name="app_name">SysCredit</string>
+    <string name="app_text">Hola, Android!</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Abrir</string>
+    <string name="nav_close">Cerrar</string>
+
+    <!--Menu items-->
+    <string name="home">Inicio</string>
+    <string name="client_registration">Registro de Clientes</string>
+    <string name="customer_list">Lista de Clientes</string>
+    <string name="loan_application">Solicitud de Préstamo</string>
+    <string name="routes">Rutas</string>
+    <string name="reports">Reportes</string>
+    <string name="catalogs">Catálogos</string>
+    <string name="about">Acerca de</string>
+    <string name="help">Ayuda</string>
+    <string name="logout">Cerrar Sesión</string>
+
+    <string name="menu_button_description">Menú</string>
+    <string name="email">email@syscredit.com</string>
+
+    <!-- Image Descriptions -->
+    <string name="ic_default_gravatar_description">Personaje</string>
+    <string name="Home">Inicio</string>
+
+    <!--Login items-->
+    <string name="welcome">¡Bienvenido!</string>
+    <string name="enter_data_message">Ingresa tus datos para iniciar sesión</string>
+    <string name="username_input_placeholder">Nombre de usuario</string>
+    <string name="password_input_placeholder">Contraseña</string>
+    <string name="checkbox_message">Guardar sesión</string>
+    <string name="recover_account_message">¿Olvidó su contraseña?</string>
+    <string name="log_in_button">Iniciar Sesión</string>
+    <string name="sign_in_button">Registrarse</string>
+
+    <!--Register user items-->
+    <string name="create_account_message">¡Crear una cuenta!</string>
+    <string name="enter_details_message">Ingresa tus datos para crear tu cuenta</string>
+
+    <!--Recover Account items-->
+    <string name="recover_account">¡Recuperar cuenta!</string>
+    <string name="enter_email_message">Ingrese el correo electrónico para renovar la contraseña</string>
+    <string name="email_input_placeholder">Correo electrónico</string>
+    <string name="send_button">Enviar</string>
+
+    <!-- Home Fragment -->
+    <string name="home_welcome_message">Bienvenido</string>
+    <string name="home_instant_cash_message">Efectivo al instante</string>
+    <string name="home_new_customer">Nuevo Cliente</string>
+    <string name="home_customer_list">Lista de Clientes</string>
+    <string name="home_loan_application">Solicitud de Préstamo</string>
+    <string name="home_routes">Rutas</string>
+    <string name="home_reports">Reportes</string>
+    <string name="home_catalogs">Catálogos</string>
+</resources>

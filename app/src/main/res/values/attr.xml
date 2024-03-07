@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="color_navigation_item" format="color" />
+    <attr name="color_navigation_item_selected" format="color" />
+
+    <attr name="drawable_navigation_item_background" format="reference" />
+</resources>

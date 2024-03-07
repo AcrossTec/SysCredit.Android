@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_app_home_white_syscredit"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/nav_client_registration"
+            android:icon="@drawable/ic_person_add_white_syscredit"
+            android:title="@string/client_registration" />
+
+        <item
+            android:id="@+id/nav_customer_list"
+            android:icon="@drawable/ic_businessmen_white_syscredit"
+            android:title="@string/customer_list" />
+
+        <item
+            android:id="@+id/nav_loan_application"
+            android:icon="@drawable/ic_money_stack_white_syscredit"
+            android:title="@string/loan_application" />
+
+        <item
+            android:id="@+id/nav_routes"
+            android:icon="@drawable/ic_navigation_map_white_syscredit"
+            android:title="@string/routes" />
+
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/ic_presentation_financial_white_syscredit"
+            android:title="@string/reports" />
+
+        <item
+            android:id="@+id/nav_catalogs"
+            android:icon="@drawable/ic_catalog_syscredit"
+            android:title="@string/catalogs" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_circle_info_solid_white_syscredit"
+            android:title="@string/about" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help_syscredit"
+            android:title="@string/help" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_close_session_white_syscredit"
+            android:title="@string/logout" />
+    </group>
+</menu>

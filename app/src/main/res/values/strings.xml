@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">SysCredit</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="app_text">Hello, Android!</string>
+
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <!--Menu items-->
+    <string name="home">Home</string>
+    <string name="client_registration">Client Registration</string>
+    <string name="customer_list">Customer List</string>
+    <string name="loan_application">Loan Application</string>
+    <string name="routes">Routes</string>
+    <string name="reports">Reports</string>
+    <string name="catalogs">Catalogs</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="logout">Logout</string>
+
+    <string name="menu_button_description">Menu</string>
+    <string name="email">email@syscredit.com</string>
+
+    <!-- Image Descriptions -->
+    <string name="ic_default_gravatar_description">Avatar</string>
+    <string name="Home">Home</string>
+
+    <!--Login items-->
+    <string name="welcome">Welcome!</string>
+    <string name="enter_data_message">Enter your details to log in</string>
+    <string name="username_input_placeholder">Username</string>
+    <string name="password_input_placeholder">Password</string>
+    <string name="checkbox_message">Save session</string>
+    <string name="recover_account_message">Forgot password?</string>
+    <string name="log_in_button">Log in</string>
+    <string name="sign_in_button">Sign in</string>
+
+    <!--Register user items-->
+    <string name="create_account_message">Create an account!</string>
+    <string name="enter_details_message">Enter your details to create your account</string>
+
+    <!--Recover Account items-->
+    <string name="recover_account">Recover account!</string>
+    <string name="enter_email_message">Enter email to renew password</string>
+    <string name="email_input_placeholder">Email</string>
+    <string name="send_button">Send</string>
+
+    <!--Home Fragment-->
+    <string name="home_welcome_message">Welcome</string>
+    <string name="home_instant_cash_message">Instant cash</string>
+    <string name="home_new_customer">New Customer</string>
+    <string name="home_customer_list">List Customer</string>
+    <string name="home_loan_application">Loan Application</string>
+    <string name="home_routes">Routes</string>
+    <string name="home_reports">Reports</string>
+    <string name="home_catalogs">Catalogs</string>
+</resources>
