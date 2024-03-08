@@ -11,4 +11,58 @@
         android:label="@string/home"
         tools:layout="@layout/fragment_home" />
 
+    <fragment
+        android:id="@+id/nav_client_registration"
+        android:name="com.acrosstec.syscredit.fragments.ConstructionFragment"
+        android:label="@string/client_registration"
+        tools:layout="@layout/fragment_construction"/>
+
+    <fragment
+        android:id="@+id/nav_customer_list"
+        android:name="com.acrosstec.syscredit.fragments.ConstructionFragment"
+        android:label="@string/customer_list"
+        tools:layout="@layout/fragment_construction"/>
+
+    <fragment
+        android:id="@+id/nav_loan_application"
+        android:name="com.acrosstec.syscredit.fragments.ConstructionFragment"
+        android:label="@string/loan_application"
+        tools:layout="@layout/fragment_construction"/>
+
+    <fragment
+        android:id="@+id/nav_routes"
+        android:name="com.acrosstec.syscredit.fragments.ConstructionFragment"
+        android:label="@string/routes"
+        tools:layout="@layout/fragment_construction"/>
+
+    <fragment
+        android:id="@+id/nav_reports"
+        android:name="com.acrosstec.syscredit.fragments.ConstructionFragment"
+        android:label="@string/reports"
+        tools:layout="@layout/fragment_construction"/>
+
+    <fragment
+        android:id="@+id/nav_catalogs"
+        android:name="com.acrosstec.syscredit.fragments.ConstructionFragment"
+        android:label="@string/catalogs"
+        tools:layout="@layout/fragment_construction"/>
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.acrosstec.syscredit.fragments.ConstructionFragment"
+        android:label="@string/about"
+        tools:layout="@layout/fragment_construction"/>
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.acrosstec.syscredit.fragments.ConstructionFragment"
+        android:label="@string/help"
+        tools:layout="@layout/fragment_construction"/>
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.acrosstec.syscredit.fragments.ConstructionFragment"
+        android:label="@string/logout"
+        tools:layout="@layout/fragment_construction"/>
+
 </navigation>
