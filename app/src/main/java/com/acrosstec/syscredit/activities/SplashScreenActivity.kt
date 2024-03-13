@@ -7,12 +7,12 @@ import com.acrosstec.syscredit.MainActivity
 
 class SplashScreenActivity : AppCompatActivity()
 {
-    override fun onCreate(savedInstanceState: Bundle?)
+    override fun onCreate(SavedInstanceState: Bundle?)
     {
-        super.onCreate(savedInstanceState)
+        super.onCreate(SavedInstanceState)
 
-        val intent = Intent(this, MainActivity::class.java)
-        startActivity(intent)
+        val Intent = Intent(this, MainActivity::class.java)
+        startActivity(Intent)
         finish()
     }
 }

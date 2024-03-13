@@ -13,42 +13,41 @@ import com.acrosstec.syscredit.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity()
 {
+    private lateinit var AppBarConfiguration: AppBarConfiguration
+    private lateinit var Binding: ActivityMainBinding
 
-    private lateinit var appBarConfiguration: AppBarConfiguration
-    private lateinit var binding: ActivityMainBinding
-
-    override fun onCreate(savedInstanceState: Bundle?)
+    override fun onCreate(SavedInstanceState: Bundle?)
     {
-        super.onCreate(savedInstanceState)
+        super.onCreate(SavedInstanceState)
 
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        Binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(Binding.root)
 
-        setSupportActionBar(binding.appBarMain.toolbar)
+        setSupportActionBar(Binding.appBarMain.toolbar)
         supportActionBar!!.setDisplayShowTitleEnabled(false)
 
-        val drawerLayout: DrawerLayout = binding.drawerLayout
-        val navView: NavigationView = binding.navView
-        val navController = findNavController(R.id.nav_host_fragment_content_main)
+        val DrawerLayout: DrawerLayout = Binding.drawerLayout
+        val NavView: NavigationView = Binding.navView
+        val NavController = findNavController(R.id.nav_host_fragment_content_main)
 
-        appBarConfiguration = AppBarConfiguration(
+        AppBarConfiguration = AppBarConfiguration(
             setOf(
                 R.id.nav_home
-            ), drawerLayout
+            ), DrawerLayout
         )
 
-        navView.setupWithNavController(navController)
+        NavView.setupWithNavController(NavController)
 
-        val menuButton = findViewById<ImageButton>(R.id.menu_button)
-        menuButton.setOnClickListener {
-            drawerLayout.open()
+        val MenuButton = findViewById<ImageButton>(R.id.menu_button)
+        MenuButton.setOnClickListener {
+            DrawerLayout.open()
         }
 
     }
 
     override fun onSupportNavigateUp(): Boolean
     {
-        val navController = findNavController(R.id.nav_host_fragment_content_main)
-        return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
+        val NavController = findNavController(R.id.nav_host_fragment_content_main)
+        return NavController.navigateUp(AppBarConfiguration) || super.onSupportNavigateUp()
     }
 }

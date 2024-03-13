@@ -9,11 +9,11 @@ import com.acrosstec.syscredit.databinding.FragmentConstructionBinding
 
 class ConstructionFragment : Fragment()
 {
-    private var _binding: FragmentConstructionBinding? = null
+    private var _Binding: FragmentConstructionBinding? = null
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View
+    override fun onCreateView(Inflater: LayoutInflater, Container: ViewGroup?, SavedInstanceState: Bundle?): View
     {
-        _binding = FragmentConstructionBinding.inflate(inflater, container, false)
-        return _binding!!.root
+        _Binding = FragmentConstructionBinding.inflate(Inflater, Container, false)
+        return _Binding!!.root
     }
 }

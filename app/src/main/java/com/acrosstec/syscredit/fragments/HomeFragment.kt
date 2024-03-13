@@ -9,25 +9,23 @@ import com.acrosstec.syscredit.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment()
 {
-    private var _binding: FragmentHomeBinding? = null
+    private var _Binding: FragmentHomeBinding? = null
 
-    // This property is only valid between onCreateView and
-    // onDestroyView.
-    private val binding get() = _binding!!
+    private val Binding get() = _Binding!!
 
     override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
+        Inflater: LayoutInflater,
+        Container: ViewGroup?,
+        SavedInstanceState: Bundle?
     ): View
     {
-        _binding = FragmentHomeBinding.inflate(inflater, container, false)
-        return binding.root
+        _Binding = FragmentHomeBinding.inflate(Inflater, Container, false)
+        return Binding.root
     }
 
     override fun onDestroyView()
     {
         super.onDestroyView()
-        _binding = null
+        _Binding = null
     }
 }
