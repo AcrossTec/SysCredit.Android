@@ -41,6 +41,7 @@ class PresentationActivity : AppCompatActivity()
     private fun ConfigureListenerComponents()
     {
         ViewPager.adapter = ViewPagerAdapter
+        ViewPager.post { ViewPager.requestLayout() }
 
         TabLayout.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener
         {
