@@ -61,4 +61,32 @@
     <string name="home_routes">Routes</string>
     <string name="home_reports">Reports</string>
     <string name="home_catalogs">Catalogs</string>
+
+    <!-- Presentation One -->
+    <string name="presentation_number_one" translatable="false">1/4</string>
+    <string name="presentation_one_title">Welcome to SysCredit</string>
+    <string name="presentation_one_description">The Most Reliable Loan System to Run Your Business, <b>and Faster.</b></string>
+    <string name="presentation_one_highlight">and Faster.</string>
+
+    <!-- Presentation Two -->
+    <string name="presentation_number_two" translatable="false">2/4</string>
+    <string name="presentation_two_description">SysCredit is built to facilitate the daily </string>
+    <string name="presentation_two_highlight">Order </string>
+    <string name="presentation_two_description_2">order of your loans or collections All in one place.</string>
+
+    <!-- Presentation Three -->
+    <string name="presentation_number_three" translatable="false">3/4</string>
+    <string name="presentation_three_description">Do not worry! SysCredit gives you security total, manage everything from a remote center like a total </string>
+    <string name="presentation_three_highlight">Lookout.</string>
+
+    <!-- Presentation Four -->
+    <string name="presentation_number_four" translatable="false">4/4</string>
+    <string name="presentation_four_description">SysCredit </string>
+    <string name="presentation_four_highlight">Accessibility </string>
+    <string name="presentation_four_description_2">tailored to your hand!.</string>
+
+    <!-- Name Button -->
+    <string name="next_button">Next</string>
+    <string name="skip_button">Skip</string>
+
 </resources>
