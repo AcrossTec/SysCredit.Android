@@ -13,13 +13,16 @@
         android:theme="@style/Theme.SysCredit.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".activities.PresentationActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.SysCredit.NoActionBar"/>
+            android:theme="@style/Theme.SysCredit.NoActionBar" />
         <activity
             android:name=".activities.SplashScreenActivity"
-            android:theme="@style/SplashScreen"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
