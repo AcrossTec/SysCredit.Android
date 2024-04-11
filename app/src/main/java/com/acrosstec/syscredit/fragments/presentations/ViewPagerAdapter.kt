@@ -17,7 +17,7 @@ class ViewPagerAdapter(Fragment: PresentationActivity) : FragmentStateAdapter(Fr
         {
             0 -> PresentationOneFragment()
             1 -> PresentationTwoFragment()
-            2 -> PresentationOneFragment()
+            2 -> PresentationThreeFragment()
             3 -> PresentationOneFragment()
             else -> PresentationOneFragment()
         }
