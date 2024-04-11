@@ -11,7 +11,11 @@ class SplashScreenActivity : AppCompatActivity()
     {
         super.onCreate(SavedInstanceState)
 
-        val Intent = Intent(this, MainActivity::class.java)
+//        val Intent = Intent(this, MainActivity::class.java)
+//        startActivity(Intent)
+//        finish()
+
+        val Intent = Intent(this, PresentationActivity::class.java)
         startActivity(Intent)
         finish()
     }

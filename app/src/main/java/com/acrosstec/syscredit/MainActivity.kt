@@ -9,12 +9,19 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
+import androidx.navigation.NavController
 import com.acrosstec.syscredit.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity()
 {
     private lateinit var AppBarConfiguration: AppBarConfiguration
     private lateinit var Binding: ActivityMainBinding
+
+    // Components
+    private lateinit var DrawerLayout: DrawerLayout
+    private lateinit var NavView: NavigationView
+    private lateinit var NavController: NavController
+    private lateinit var MenuButton: ImageButton
 
     override fun onCreate(SavedInstanceState: Bundle?)
     {
@@ -23,12 +30,15 @@ class MainActivity : AppCompatActivity()
         Binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(Binding.root)
 
-        setSupportActionBar(Binding.appBarMain.toolbar)
-        supportActionBar!!.setDisplayShowTitleEnabled(false)
+        InitializeComponents()
+        ConfigureComponents()
+    }
 
-        val DrawerLayout: DrawerLayout = Binding.drawerLayout
-        val NavView: NavigationView = Binding.navView
-        val NavController = findNavController(R.id.nav_host_fragment_content_main)
+    private fun InitializeComponents()
+    {
+        DrawerLayout = Binding.drawerLayout
+        NavView = Binding.navView
+        NavController = findNavController(R.id.nav_host_fragment_content_main)
 
         AppBarConfiguration = AppBarConfiguration(
             setOf(
@@ -36,13 +46,19 @@ class MainActivity : AppCompatActivity()
             ), DrawerLayout
         )
 
+        MenuButton = findViewById(R.id.menu_button)
+    }
+
+    private fun ConfigureComponents()
+    {
+        setSupportActionBar(Binding.appBarMain.toolbar)
+        supportActionBar!!.setDisplayShowTitleEnabled(false)
+
         NavView.setupWithNavController(NavController)
 
-        val MenuButton = findViewById<ImageButton>(R.id.menu_button)
         MenuButton.setOnClickListener {
             DrawerLayout.open()
         }
-
     }
 
     override fun onSupportNavigateUp(): Boolean

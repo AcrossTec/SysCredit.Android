@@ -65,4 +65,21 @@
     <string name="home_routes">Rutas</string>
     <string name="home_reports">Reportes</string>
     <string name="home_catalogs">Catálogos</string>
+
+    <!-- Presentation One -->
+    <string name="presentation_one_title">¡Bienvenido a SysCredit!</string>
+    <string name="presentation_one_description">El sistema de prestamo mas confiable para dirigir tu empresa, de manera mas <b>Rápido</b></string>
+
+    <!-- Presentation Two -->
+    <string name="presentation_two_description">SysCredit esta construido para facilitar el <b>Orden</b> diario de tus prestamos o cobros todo en un solo lugar</string>
+
+    <!-- Presentation Three -->
+    <string name="presentation_three_description">No temas! SysCredit te brinda seguridad total, maneja todo desde un centro remoto como un total <b>Vigía</b></string>
+
+    <!-- Presentation Four -->
+    <string name="presentation_four_description">SysCredit <b>Accesibilidad</b> hecha a la medida de tu mano!</string>
+
+    <!-- Name Button -->
+    <string name="next_button">Siguiente</string>
+    <string name="skip_button">Saltar</string>
 </resources>
